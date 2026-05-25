@@ -1,0 +1,13 @@
+[package]
+name = "agent-conversation-state"
+version = "0.1.0"
+edition = "2021"
+description = "Track conversation state and phase transitions for LLM agents"
+license = "MIT"
+repository = "https://github.com/MukundaKatta/agent-conversation-state-rs"
+keywords = ["llm", "agent", "state-machine", "conversation", "fsm"]
+categories = ["development-tools"]
+exclude = ["target/*", ".github/*", "*.log"]
+
+[dependencies]
+serde_json = "1"
